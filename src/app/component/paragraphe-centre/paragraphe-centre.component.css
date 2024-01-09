@@ -1,0 +1,25 @@
+.paragraphe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff; 
+    padding: 10px; 
+    height: 75px; 
+  }
+  
+  .paragraphe-text {
+    color: #2F2A85; 
+    font-size: 20px;
+    margin: 0; 
+  }
+  @media screen and (max-width: 768px) {
+    
+    .paragraphe-text {
+      font-size: 16px;
+      text-align: justify;
+    }
+    .paragraphe-container {
+      padding: 20px; 
+    }
+  }

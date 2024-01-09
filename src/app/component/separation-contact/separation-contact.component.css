@@ -1,0 +1,12 @@
+img{
+    max-width: 696px;
+    margin-top: -275px;
+    padding-left: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    img{
+        max-width: 0;
+    }
+    
+}
