@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dev.css">
+    <title>Portfolio - Bilal Ouhrouche</title>
+</head>
+<body id="body">
+    <img id="animation" src="" alt="">
+    <img id="competence" src="" alt="">
+<!--   
+    <header>
+<nav>
+    <a class="menu" href="#">Accueil</a>
+    <a class="menu" href="#">Projet</a>
+    <a class="menu" href="#">Experience</a>
+    <a class="menu" href="#">Contact</a>
+</nav>
+</header>
+-->
+
+<div id="vide"></div>
+
+<aside id="description">
+<h1 class="Titre">Dév. web</h1>
+<p id="text">Vous retrouverez sur cette page un certain nombre de projets web que j'ai pu réaliser, principalement en cours lors de projets scolaires. Certains projets ont été réalisés seul, tandis que d'autres l'ont été en groupe.</p><br>
+</aside>
+
+<section id="slider-container">
+    <div id="slider">
+        <div class="slide-group">
+            <article class="Projet" onmouseenter="descente(); changeDescription('Bubble Waves', 'Premier projet web complet dans lequel je devais developper un site web pour un salon de coiffure dans lequel je devais developper des sessions, la posibilité de réaliser des réservation et une carte de visite en ligne.');" onmouseleave="remonte(); resetDescription();">
+                <img onmouseenter="bubble();" onmouseleave="none();" class="imgprojet" src="Image/Dev/Bubble wave logo.png" alt="Bubble Waves">
+                <h4 id="proj1">Acceder à la section</h4>
+            </article>
+            <article class="Projet" onmouseenter="descente1(); changeDescription('Webdocumentaire', 'Ce projet est un webdocumentaire portant sur le quotidien de la streameuse HeyRaion. Ce webdocumentaire a été réalisé sous forme de site web imitant le style de la plateforme Twitch. Vous trouverez sur le site une interview vidéo interactive simulant un stream.');" onmouseleave="remonte1(); resetDescription();">
+                <img onmouseenter="doc();" onmouseleave="none();" class="imgprojet" src="Image/Dev/web_doc_logo.png" alt="Webdocumentaire">
+                <h4 id="proj2">Acceder à la section</h4>
+            </article>
+            <article class="Projet" onmouseover="descente2(); changeDescription('JPO', 'Nous devions en groupe de cinq réaliser le site web de la Journée Portes Ouvertes (JPO) de l\'Université Gustave Eiffel à Meaux. J\'ai été le chef de projet et ai réalisé des tâches en graphisme, développement web, modélisation 3D, ainsi que le développement d\'une expérience 3D sur Unity.');" onmouseleave="remonte2(); resetDescription();">
+                <img onmouseover="jpo();" onmouseleave="none();" id="Audiovisuel" class="imgprojet" src="Image/Dev/JPO_logo.jpg" alt="Journée porte ouverte">
+                <h4 id="proj3">Acceder à la section</h4>
+            </article>
+            <article class="Projet" onmouseover="descente3();" onmouseleave="remonte3();">
+                <img onmouseover="deep();" onmouseleave="none();" id="Plus" class="imgprojet" src="Image/Dev/deepblock_logo.png" alt="DeepBlock">
+                <h4 id="proj4">Acceder à la section</h4>
+            </article>
+        </div>
+        <div class="slide-group">
+            <article class="Projet" onmouseenter="descente(); changeDescription('Bubble Waves', 'Premier projet web complet dans lequel je devais developper un site web pour un salon de coiffure dans lequel je devais developper des sessions, la posibilité de réaliser des réservation et une carte de visite en ligne.');" onmouseleave="remonte(); resetDescription();">
+                <img onmouseenter="bubble();" onmouseleave="none();" class="imgprojet" src="Image/Dev/Bubble wave logo.png" alt="Bubble Waves">
+                <h4 id="proj1">Acceder à la section</h4>
+            </article>
+            <article class="Projet" onmouseenter="descente1(); changeDescription('Webdocumentaire', 'Ce projet est un webdocumentaire portant sur le quotidien de la streameuse HeyRaion. Ce webdocumentaire a été réalisé sous forme de site web imitant le style de la plateforme Twitch. Vous trouverez sur le site une interview vidéo interactive simulant un stream.');" onmouseleave="remonte1(); resetDescription();">
+                <img onmouseenter="doc();" onmouseleave="none();" class="imgprojet" src="Image/Dev/web_doc_logo.png" alt="Webdocumentaire">
+                <h4 id="proj2">Acceder à la section</h4>
+            </article>
+            <article class="Projet" onmouseover="descente2(); changeDescription('JPO', 'Nous devions en groupe de cinq réaliser le site web de la Journée Portes Ouvertes (JPO) de l\'Université Gustave Eiffel à Meaux. J\'ai été le chef de projet et ai réalisé des tâches en graphisme, développement web, modélisation 3D, ainsi que le développement d\'une expérience 3D sur Unity.');" onmouseleave="remonte2(); resetDescription();">
+                <img onmouseover="jpo();" onmouseleave="none();" id="Audiovisuel" class="imgprojet" src="Image/Dev/JPO_logo.jpg" alt="Journée porte ouverte">
+                <h4 id="proj3">Acceder à la section</h4>
+            </article>
+            <article class="Projet" onmouseover="descente3();" onmouseleave="remonte3();">
+                <img onmouseover="deep();" onmouseleave="none();" id="Plus" class="imgprojet" src="Image/Dev/deepblock_logo.png" alt="DeepBlock">
+                <h4 id="proj4">Acceder à la section</h4>
+            </article>
+        </div>
+    </div>
+    <button id="btngauche"><img id="imggauche" src="Image/arrow.png" alt="fleche"></button>
+    <button id="btndroite"><img id="imgdroite" src="Image/arrow.png" alt="fleche"></button>
+</section>
+
+
+<script src="Index.js"></script>
+<script src="Dev.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-image: url(Fond.png);
+    background-size: 100%;
+}
+
+header{
+    position: relative;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    z-index: 100
+}
+
+nav{
+    font-size: 25px;
+    background-color: rgba(43, 43, 43, 0.315);
+    position: fixed;
+    border-radius: 4px;
+    padding: 10px 0px;
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+    padding: 11px 10px;
+
+}
+
+.menu:hover{
+    color: rgb(53, 53, 53);
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 4px;
+}
+
+#vide{
+    width: 15px;
+    height: 160px;
+}
+
+.Titre{
+    font-size: 72px;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: lava 2s ease-in-out infinite;
+}
+
+@keyframes lava {
+    0%, 100% {
+        --angle: 0deg;
+    }
+    1% {
+        --angle: 1deg;
+    }
+    100% {
+        --angle: 360deg;
+    }
+}
+
+aside{
+    margin-left: 5%;
+    font-size: larger;
+    height: auto;
+    width: 40%;
+}
+
+.Projet{
+    background: radial-gradient(circle, #ffd900, #ffb223 100%);
+    background-size: 200% 100%;
+    animation: Fond 5s linear infinite;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 100px;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+}
+
+.Projet:hover{
+    margin-top: 97px;
+    padding-top: 3px;
+    width: 400px;
+    height: 290px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+}
+
+@keyframes Fond {
+    0% {
+      background-position: 0% 70%;
+    }
+    50% {
+      background-position: 100% 70%;
+    }
+    100% {
+      background-position: 0% 70%;
+    }
+  }
+
+.imgprojet{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    transition: 0.5s;
+    z-index: 10;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h4{
+    margin-left: 5px;
+    margin-top: -30px;
+    transition: 0.5s;
+    font-weight: normal;
+    font-size: 20px;
+}

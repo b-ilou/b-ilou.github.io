@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-image: url(Fond.png);
+    background-size: 100%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+header{
+    position: relative;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    z-index: 100
+}
+
+nav{
+    font-size: 25px;
+    background-color: rgba(43, 43, 43, 0.315);
+    position: fixed;
+    border-radius: 4px;
+    padding: 10px 0px;
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+    padding: 11px 10px;
+
+}
+
+.menu:hover{
+    color: rgb(53, 53, 53);
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 4px;
+}
+
+#animation{
+position: absolute;
+width: 100%;
+transition: 1s;
+z-index: -2;
+}
+
+#competence{
+    position: absolute;
+    width: 100%;
+    transition: 1s;
+    z-index: -1;
+    opacity: 0%;
+    transition: 1s;
+    }
+
+#text{
+    position: absolute;
+    z-index: -222;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: -5px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+    width: 40%;
+}
+
+#vide{
+    transition: 1s;
+    width: 15px;
+    height: 160px;
+}
+
+.Titre{
+    font-size: 72px;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: lava 2s ease-in-out infinite;
+    position: relative;
+    z-index: -222;
+}
+
+@keyframes lava {
+    0%, 100% {
+        --angle: 0deg;
+    }
+    1% {
+        --angle: 1deg;
+    }
+    100% {
+        --angle: 360deg;
+    }
+}
+
+aside{
+    margin-left: 5%;
+    font-size: larger;
+    height: auto;
+    width: 40%;
+    position: inherit;
+    margin-bottom: 100px;
+}
+
+@keyframes Fond {
+    0% {
+      background-position: 0% 70%;
+    }
+    50% {
+      background-position: 100% 70%;
+    }
+    100% {
+      background-position: 0% 70%;
+    }
+  }
+
+  #slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.Projet {
+    background: radial-gradient(circle, #ffd900, #ffb223 100%);
+    background-size: 200% 100%;
+    animation: Fond 5s linear infinite;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 100px 25px;
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+}
+
+.Projet:hover {
+    margin-top: 97px;
+    padding-top: 3px;
+    width: 400px;
+    height: 290px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+}
+
+.imgprojet {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    transition: 0.5s;
+    z-index: 10;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h4 {
+    margin-left: 5px;
+    margin-top: -30px;
+    transition: 0.5s;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: hsla(0, 100%, 52%, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+#btngauche {
+    left: 10px;
+}
+
+#imggauche {
+    width: 50px;
+    transition: 0.25s;
+}
+
+#imggauche:hover {
+    width: 55px;
+    transition: 0.25s;
+}
+
+#btndroite {
+    right: 10px;
+}
+
+#imgdroite {
+    width: 50px;
+    transform: rotate(0.5turn);
+    transition: 0.25s;
+}
+
+#imgdroite:hover {
+    width: 55px;
+    transition: 0.25s;
+}
+
+
+#bouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
