@@ -99,3 +99,23 @@ btndroite.addEventListener('click', () => {
     }
     slider.style.transform = `translateX(-${scrollAmount}px)`;
 });
+
+function boutondroite(){
+    document.getElementById('slider').style.pointerEvents = 'none';
+    document.getElementById('btndroite').style.display = "none";
+    document.getElementById('btngauche').style.display = "block";
+    
+    setTimeout(function() {
+        document.getElementById('slider').style.pointerEvents = 'all';
+        }, 700);
+}
+
+function boutongauche(){
+    document.getElementById('slider').style.pointerEvents = 'none';
+    document.getElementById('btndroite').style.display = "block";
+    document.getElementById('btngauche').style.display = "none";
+
+    setTimeout(function() {
+        document.getElementById('slider').style.pointerEvents = 'all';
+        }, 700);
+}

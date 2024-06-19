@@ -186,6 +186,7 @@ button {
 
 #btngauche {
     left: 10px;
+    display: none;
 }
 
 #imggauche {
