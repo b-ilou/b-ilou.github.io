@@ -16,7 +16,7 @@ function bubble(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/dev/fondWave.png";
+            document.getElementById("competence").src="Image/Dev/FondWave.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -35,7 +35,7 @@ function doc(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/dev/fondWebdoc.png";
+            document.getElementById("competence").src="Image/Dev/FondWebdoc.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -54,7 +54,7 @@ function jpo(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/dev/fondJPO.png";
+            document.getElementById("competence").src="Image/Dev/FondJPO.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
