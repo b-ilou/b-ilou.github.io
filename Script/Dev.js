@@ -1,8 +1,8 @@
 function none(){
-    document.getElementById('body').style.backgroundImage = 'url(Fond.png)';
+    document.getElementById('body').style.backgroundImage = 'url(./Image/fond.png)';
     document.getElementById("competence").style.opacity = '0%';
 }
-
+    
 function bubble(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'

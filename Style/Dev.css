@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-image: url(Fond.png);
+    background-image: url(../Image/fond.png);
     background-size: 100%;
     overflow: hidden;
     transition: 1s;

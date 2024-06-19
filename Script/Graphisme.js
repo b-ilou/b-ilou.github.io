@@ -1,5 +1,5 @@
 function none(){
-    document.getElementById('body').style.backgroundImage = 'url(Fond.png)';
+    document.getElementById('body').style.backgroundImage = 'url(./Image/fond.png)';
     document.getElementById("competence").style.opacity = '0%';
 }
 

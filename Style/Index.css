@@ -2,10 +2,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-image: url(Fond.png);
+    background-image: url(../Image/fond.png);
     background-size: 100%;
-    overflow: hidden;
-    transition: 1s;
+}
+
+.lien{
+    text-decoration: none;
+    color: black;
 }
 
 header{
@@ -37,44 +40,9 @@ nav{
     border-radius: 4px;
 }
 
-#animation{
-position: absolute;
-width: 100%;
-transition: 1s;
-z-index: -2;
-}
-
-#competence{
-    position: absolute;
-    width: 100%;
-    transition: 1s;
-    z-index: -1;
-    opacity: 0%;
-    transition: 1s;
-    }
-
-#text{
-    position: relative;
-    z-index: -222;
-    background-color: #e8e8e8;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: -5px;
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.616);
-}
-
 #vide{
-    transition: 1s;
     width: 15px;
     height: 160px;
-}
-
-#slide {
-    position: inherit;
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    overflow-y: hidden;
 }
 
 .Titre{
@@ -84,8 +52,6 @@ z-index: -2;
     -webkit-background-clip: text;
     color: transparent;
     animation: lava 2s ease-in-out infinite;
-    position: relative;
-    z-index: -222;
 }
 
 @keyframes lava {
@@ -116,8 +82,7 @@ aside{
     border-radius: 5px;
     transition: 0.5s;
     margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 35px;
+    overflow: hidden;
     box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
 }
 
@@ -153,16 +118,16 @@ aside{
     object-fit: cover;
 }
 
+#slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 h4{
     margin-left: 5px;
     margin-top: -30px;
     transition: 0.5s;
     font-weight: normal;
     font-size: 20px;
-}
-
-#bouton{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
