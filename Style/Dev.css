@@ -185,37 +185,47 @@ button {
 }
 
 #btngauche {
-    left: 10px;
+    left: 0px;
     display: none;
 }
 
-#imggauche {
-    width: 50px;
-    transition: 0.25s;
-}
-
-#imggauche:hover {
-    width: 55px;
-    transition: 0.25s;
-}
-
 #btndroite {
-    right: 10px;
+    right: 0px;
 }
 
-#imgdroite {
-    width: 50px;
-    transform: rotate(0.5turn);
-    transition: 0.25s;
-}
+.triangledroitorange {
+    fill: #ffb223;
+    stroke-width: 4;
+    transition: all 0.8s ease-in-out;
+    transform: rotate(90deg);
+    transform-origin: 35px 35px;
+  }
 
-#imgdroite:hover {
-    width: 55px;
-    transition: 0.25s;
-}
+  .triangledroitgris {
+    fill: #b3b2b2;
+    stroke-width: 4;
+    transition: all 0.8s ease-in-out;
+    transform: rotate(90deg) translate(0px, 17.5px);
+    transform-origin: 35px 35px;
+  }
 
+  .trianglegaucheorange {
+    fill: #ffb223;
+    stroke-width: 4;
+    transition: all 0.8s ease-in-out;
+    transform: rotate(-90deg);
+    transform-origin: 35px 35px;
+  }
 
-#bouton{
+  .trianglegauchegris {
+    fill: #b3b2b2;
+    stroke-width: 4;
+    transition: all 0.8s ease-in-out;
+    transform: rotate(-90deg) translate(0px, 17.5px);
+    transform-origin: 35px 35px;
+  }
+
+  #bouton{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

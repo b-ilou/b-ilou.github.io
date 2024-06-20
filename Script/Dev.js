@@ -119,3 +119,28 @@ function boutongauche(){
         document.getElementById('slider').style.pointerEvents = 'all';
         }, 700);
 }
+
+    const svgdroit = document.getElementById('svgdroit');
+    const svggauche = document.getElementById('svggauche');
+    const triangleGrisdroit = document.querySelector('.triangledroitgris');
+    const triangleGrisgauche = document.querySelector('.trianglegauchegris');
+
+    // Ajouter un écouteur d'événement au survol du triangle orange
+    svgdroit.addEventListener('mouseover', () => {
+        triangleGrisdroit.style.transform = 'rotate(90deg) translate(0px, 10px)';
+    });
+
+    // Ajouter un écouteur d'événement pour retirer la transformation au sortir du survol
+    svgdroit.addEventListener('mouseout', () => {
+        triangleGrisdroit.style.transform = 'rotate(90deg) translate(0px, 17.5px)';
+    });
+
+        // Ajouter un écouteur d'événement au survol du triangle orange
+        svggauche.addEventListener('mouseover', () => {
+            triangleGrisgauche.style.transform = 'rotate(-90deg) translate(0px, 10px)';
+          });
+      
+          // Ajouter un écouteur d'événement pour retirer la transformation au sortir du survol
+          svggauche.addEventListener('mouseout', () => {
+            triangleGrisgauche.style.transform = 'rotate(-90deg) translate(0px, 17.5px)';
+          });
