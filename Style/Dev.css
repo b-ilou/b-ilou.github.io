@@ -195,7 +195,6 @@ button {
 
 .triangledroitorange {
     fill: #ffb223;
-    stroke-width: 4;
     transition: all 0.8s ease-in-out;
     transform: rotate(90deg);
     transform-origin: 35px 35px;
@@ -203,7 +202,6 @@ button {
 
   .triangledroitgris {
     fill: #b3b2b2;
-    stroke-width: 4;
     transition: all 0.8s ease-in-out;
     transform: rotate(90deg) translate(0px, 17.5px);
     transform-origin: 35px 35px;
@@ -211,7 +209,6 @@ button {
 
   .trianglegaucheorange {
     fill: #ffb223;
-    stroke-width: 4;
     transition: all 0.8s ease-in-out;
     transform: rotate(-90deg);
     transform-origin: 35px 35px;
@@ -219,7 +216,6 @@ button {
 
   .trianglegauchegris {
     fill: #b3b2b2;
-    stroke-width: 4;
     transition: all 0.8s ease-in-out;
     transform: rotate(-90deg) translate(0px, 17.5px);
     transform-origin: 35px 35px;
