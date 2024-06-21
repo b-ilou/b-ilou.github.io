@@ -1,0 +1,153 @@
+body{
+    margin:0%;
+    padding:0%;
+    overflow-x: hidden;
+    background: rgb(16,134,147);
+    background: radial-gradient(circle, rgba(16,134,147,1) 0%, rgba(4,96,108,1) 100%);
+}
+
+header{
+    background-color: #047F8C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav{
+    padding-left: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    transition: 1s;
+}
+
+.nav:hover{
+    color: #32caca;
+    transition: 1s;
+}
+
+#compte{
+    height: 70px;
+    width: 70px;
+}
+
+#logo{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: -130px;
+    left: -80px;
+}
+
+.photo{
+    height: 500px;
+    width: 500px;
+}
+
+#photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #047F8C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+#Mention{
+    text-align: center;
+}
+
+#reseau{
+    max-width : 500px;
+    height : auto;
+}
+
+#trait{
+    border-left: 5px solid #29A6A6;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+@font-face {
+    font-family: 'water_park';
+    src: url('../ressources/Water_Park.ttf') format('truetype');
+}
+
+
+h1{
+    position: absolute;
+    color: white;
+    font-size: 300px;
+    font-family: 'water_park', Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bouton{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: arial;     
+    background-color: #29A6A6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.bouton:hover{
+    background-color: #30bbbb;
+    transition: 0.5s;
+}
+
+#bouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Lien{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+#Lien:hover{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+}

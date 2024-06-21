@@ -1,0 +1,161 @@
+body{
+    margin:0%;
+    padding:0%;
+    overflow-x: hidden;
+    background: rgb(16,134,147);
+    background: radial-gradient(circle, rgba(16,134,147,1) 0%, rgba(4,96,108,1) 100%);
+    font-family: arial;
+}
+
+header{
+    background-color: #047F8C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav{
+    padding-left: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    transition: 1s;
+}
+
+.nav:hover{
+    color: #32caca;
+    transition: 1s;
+}
+
+#compte{
+    height: 70px;
+    width: 70px;
+}
+
+#logo{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: -130px;
+    left: -80px;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    margin-left: 800px;
+    margin-right: 800px;
+  }
+  form h1{
+    color: #29a6a6;
+    text-align:center;
+  }
+  
+  form #inputs {
+    display: flex;
+    flex-direction:column;
+  }
+  form #inputs input[type='email'], input[type='password'], input[type='name'], input[type='lastname']{
+    padding: 15px;
+    border:none;
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    outline:none;
+    margin-bottom: 15px;
+  }
+  form p#inscription{
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #878787;
+  }
+
+  form button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    color: #fff;
+    background-color: #29a6a6;
+    outline:none;
+    cursor:pointer;
+  }
+  
+  form button:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+  }
+
+  footer{
+    background-color: #047F8C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mention{
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+#Mention{
+    text-align: center;
+}
+
+#reseau{
+    max-width : 500px;
+    height : auto;
+}
+
+#trait{
+    border-left: 5px solid #29A6A6;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+#crée{
+    color: #047F8C;
+    text-decoration: none;
+}
+
+#crée:hover{
+    text-decoration: underline;
+}
+
+#Lien{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 1s;
+    text-align: center;
+}
+
+#Lien:hover{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+}
