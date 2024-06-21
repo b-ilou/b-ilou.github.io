@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Audiovisuel.css">
+    <title>Portfolio - Bilal Ouhrouche</title>
+    <link rel="preload" href="Image/fondcouper.png" as="image">
+    <link rel="preload" href="Image/animation.gif" as="image">
+</head>
+<body id="body">
+    <img id="animation" src="" alt="">
+    <img id="competence" src="" alt="">
+  
+<header>
+    <nav>
+        <a class="menu" href="index.html">Accueil</a>
+        <a class="menu" href="Dev.html">Dev</a>
+        <a class="menu" href="Graphisme.html">Graphisme</a>
+        <a id="actif" class="menu" href="#">Audiovisuel</a>
+        <a class="menu" href="#">Contact</a>
+    </nav>
+</header>
+
+
+<div id="vide"></div>
+
+<aside id="description">
+<h1 class="Titre">Audiovisuel</h1>
+<p id="text">Vous retrouverez sur cette page un certain nombre de projets audiovisuel que j'ai pu réaliser, principalement en cours lors de projets scolaires. Certains projets ont été réalisés seul, tandis que d'autres l'ont été en groupe.</p><br>
+</aside>
+
+<section id="slider-container">
+    <div id="slider">
+        <div class="slide-group">
+            <a target="_blank" class="lien" href="https://www.youtube.com/watch?v=fOzo39cAvOc">
+            <article class="Projet" onmouseenter="descente(); changeDescription('Le sac', 'Premier projet web complet dans lequel je devais developper un site web pour un salon de coiffure dans lequel je devais developper des sessions, la posibilité de réaliser des réservation et une carte de visite en ligne.');" onmouseleave="remonte(); resetDescription();">
+                <img onmouseenter="lesac();" onmouseleave="none();" class="imgprojet" src="Image/Audiovisuel/Sac_logo.png" alt="Le sac">
+                <h4 id="proj1">Acceder à la section</h4>
+            </article>
+            </a>
+
+            <a target="_blank" class="lien" href="https://www.youtube.com/watch?v=JjdZajgetuI">
+            <article class="Projet" onmouseenter="descente1(); changeDescription('Vréalité', 'Ce projet est un webdocumentaire portant sur le quotidien de la streameuse HeyRaion. Ce webdocumentaire a été réalisé sous forme de site web imitant le style de la plateforme Twitch. Vous trouverez sur le site une interview vidéo interactive simulant un stream.');" onmouseleave="remonte1(); resetDescription();">
+                <img onmouseenter="vrealite();" onmouseleave="none();" class="imgprojet" src="Image/Audiovisuel/Vrealité_logo.png" alt="Vréalité">
+                <h4 id="proj2">Acceder à la section</h4>
+            </article>
+            </a>
+
+            <a target="_blank" class="lien" href="https://www.youtube.com/watch?v=KfdEJPmxXIA">
+            <article class="Projet" onmouseover="descente2(); changeDescription('PUB', 'Nous devions en groupe de cinq réaliser le site web de la Journée Portes Ouvertes (JPO) de l\'Université Gustave Eiffel à Meaux. J\'ai été le chef de projet et ai réalisé des tâches en graphisme, développement web, modélisation 3D, ainsi que le développement d\'une expérience 3D sur Unity.');" onmouseleave="remonte2(); resetDescription();">
+                <img onmouseover="pub();" onmouseleave="none();" class="imgprojet" src="https://i9.ytimg.com/vi_webp/KfdEJPmxXIA/mq1.webp?sqp=CKC01rMG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWChVMA8=&rs=AOn4CLDWyObTP6fdpjnNYlbO1A4PdsLZoA" alt="pub">
+                <h4 id="proj3">Acceder à la section</h4>
+            </article>
+            </a>
+            
+            <a target="_blank" class="lien" href="https://www.youtube.com/watch?v=1BsJWa0vnpw">
+            <article class="Projet" onmouseover="descente3(); changeDescription('CCF média', 'J\'ai réalisé une alternance au sein de l\'entreprise deepblock. Durant cette alternance, j\'ai créé de zéro le site web de l\'entreprise à l\'aide du CMS Systeme.io. Ce site est une plateforme permettant d\'accéder à tous les services juridiques mis en place par l\'entreprise. J\'ai mis en place chaque page, le système d\'emailing, la liaison des services, les formulaires de contact, etc. J\'ai également complété le site web avec des incrustations HTML, CSS et JavaScript afin de contourner certaines limites du CMS.');" onmouseleave="remonte3(); resetDescription();">
+                <img onmouseover="ccf();" onmouseleave="none();" class="imgprojet" src="https://yt3.googleusercontent.com/ytc/AIdro_kgT40oxRWt4a2MH1C1mGzT77sxwLC53q2jPs6DQojJcEU=s900-c-k-c0x00ffffff-no-rj" alt="CCF média">
+                <h4 id="proj4">Acceder à la section</h4>
+            </article>
+        </a>
+        </div>
+        <a target="_blank" class="lien" href="https://www.youtube.com/watch?v=Nd_qqwSM4H4">
+        <div class="slide-group">
+            <article class="Projet" onmouseenter="descente4(); changeDescription('Nuit de l\'info', 'Petit jeu de type cookie clicker sur le thème de l\'océan. Vous pouvez débloquer des succès et acheter des bonus pour gagner plus de points. Il y a aussi un système de classement et de personnalisation.');" onmouseleave="remonte4(); resetDescription();">
+                <img onmouseenter="nuitinfo();" onmouseleave="none();" class="imgprojet" src="https://aml.univ-lyon1.fr/images/d/0/3/c/0/d03c0b64b99db9abd8d8e8f7995458486b8e25e4-postinsta.png" alt="Nuit de l'info">
+                <h4 id="proj5">Acceder à la section</h4>
+            </article>
+        </a>
+        </div>
+
+    </div>
+    <button onclick="boutongauche()" id="btngauche">
+        <svg id="svggauche" height="70" width="70">
+            <polygon points="14,56 56,56 35,14" class="trianglegaucheorange" />
+            <polygon points="14,56 56,56 35,14" class="trianglegauchegris" />
+        </svg>
+    </button>
+
+    <button onclick="boutondroite()" id="btndroite">
+        <svg id="svgdroit" height="70" width="70">
+            <polygon points="14,56 56,56 35,14" class="triangledroitorange" />
+            <polygon points="14,56 56,56 35,14" class="triangledroitgris" />
+        </svg>
+    </button>
+</section>
+
+
+<script src="Script/Index.js"></script>
+<script src="Script/Audiovisuel.js"></script>
+</body>
+</html>

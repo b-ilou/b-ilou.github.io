@@ -3,13 +3,13 @@ function none(){
     document.getElementById("competence").style.opacity = '0%';
 }
     
-function ccf(){
+function lesac(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Graphisme/CCF_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/Sac_bg.png)';
         }, 2000);
 
         setTimeout(function() {
@@ -22,51 +22,51 @@ function ccf(){
         
 }
 
-function doc(){
+function vrealite(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/web_doc_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/Vrealité_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/Dev/FondWebdoc.png";
+            document.getElementById("competence").src="";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
 }
 
-function jpo(){
+function pub(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/jpo_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/pub_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/Dev/FondJPO.png";
+            document.getElementById("competence").src="";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
 }
 
-function deepblock(){
+function ccf(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/deepblock_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/ccf_bg.png)';
         }, 2000);
 
         setTimeout(function() {
@@ -79,20 +79,20 @@ function deepblock(){
         
 }
 
-function fish(){
+function nuitinfo(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/fish_collector_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/Nuitinfo_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/Dev/FondFish.png";
+            document.getElementById("competence").src="";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -109,8 +109,8 @@ function changeDescription(title, description) {
 
 function resetDescription() {
     var descriptionElement = document.getElementById('description');
-    descriptionElement.querySelector('h1.Titre').textContent = 'Graphisme';
-    descriptionElement.querySelector('p').textContent = "Vous retrouverez sur cette page un certain nombre de projets que j'ai réalisés en graphisme. J'ai réalisé ces projets lors d'expériences professionnelles, en cours, ou bien par loisir.";
+    descriptionElement.querySelector('h1.Titre').textContent = 'Audiovisuel';
+    descriptionElement.querySelector('p').textContent = "Vous retrouverez sur cette page un certain nombre de projets audiovisuel que j'ai pu réaliser, principalement en cours lors de projets scolaires. Certains projets ont été réalisés seul, tandis que d'autres l'ont été en groupe.";
 }
 
 const slider = document.getElementById('slider');
