@@ -239,3 +239,115 @@ button {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+@media (max-width: 1600px) {
+    .Projet{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .Projet:hover{
+        margin-top: 97px;
+        padding-top: 3px;
+        width: 350px;
+        height: 240px;
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+    }
+    
+    .imgprojet{
+        position: relative;
+        width: 350px;
+        height: 200px;
+        transition: 0.5s;
+        z-index: 10;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    #vide{
+        width: 15px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .Projet{
+        width: 300px;
+        height: 150px;
+    }
+    
+    .Projet:hover{
+        margin-top: 97px;
+        padding-top: 3px;
+        width: 300px;
+        height: 190px;
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+    }
+    
+    .imgprojet{
+        position: relative;
+        width: 300px;
+        height: 150px;
+        transition: 0.5s;
+        z-index: 10;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    #vide{
+        width: 15px;
+        height: 0px;
+    }
+
+    .Titre{
+        font-size: 62px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Projet{
+        width: 250px;
+        height: 100px;
+    }
+    
+    .Projet:hover{
+        margin-top: 97px;
+        padding-top: 3px;
+        width: 250px;
+        height: 140px;
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
+    }
+    
+    .imgprojet{
+        position: relative;
+        width: 250px;
+        height: 100px;
+        transition: 0.5s;
+        z-index: 10;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    #vide{
+        width: 15px;
+        height: 0px;
+    }
+
+    .Titre{
+        font-size: 52px;
+    }
+
+    #description{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+}
