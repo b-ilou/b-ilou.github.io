@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #0e0e10;
+}
+
+header{
+    background-color: #18181b;
+    font-size: 100%;
+    font-family: arial;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#panneau_chapitre{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f23;
+    width : 250px;
+    padding-right: 3%;
+    border-top: solid 2px #0e0e10;
+}
+
+.nom_chapitre{
+    font-family: arial;
+    font-size: 100%;
+    color: white;
+    list-style: none;
+    box-sizing: content-box;
+    width: 125%;
+    padding: 20% 20% 20% 5%;
+    font-size: 100%;
+    transition: 0.5s;
+}
+
+.lien_chapitre{
+    text-decoration: none;  
+}
+
+.nom_chapitre:hover{
+    background-color: #f1cfa8;
+    box-sizing: content-box;
+    padding: 20% 20% 20% 5%;
+    transition: 0.5s;
+}
+
+.nom_panneaux{
+    font-family: arial;
+    color: white;
+    box-sizing: content-box;
+    width: 125%;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+#panneaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#emplacement{
+width: 1700px;
+background-color: #0e0e10;
+}
+
+#titre{
+    color: #f1cfa8;
+    font-family: 'Time New Roman';
+    font-size: 70px;
+    font-weight: normal;
+    margin-left: 50px;
+}
+
+#Text{
+    color: white;
+    font-family: arial;
+}
+
+#assemblage{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#article{
+    margin: 0px 100px;
+}
+
+#pp{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 100%;
+}
+
+#gauche{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#credit{
+    color: rgb(208, 208, 208);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    background-color: #18181b;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    font-family: arial;
+    color: #f1cfa8;
+    text-align: center;
+}
+
+.Text2{
+    color: #f1cfa8;
+    font-family: arial;
+    margin: 0px 200px;
+    text-align: center;
+}
+
+.NomAuteur{
+    color: white;
+    font-family: arial;
+    margin: 0px 200px;
+    text-align: center;
+}
+
+.legend{
+    color: #f1cfa8;
+    font-family: arial;
+    font-size: 15px;
+    padding: 0;
+    margin: 5px 0px 70px 0px;
+}

@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #0e0e10;
+    overflow-x: hidden;
+}
+
+audio{
+    margin: 400px 0px -300px 500px;
+}
+#blk{
+    position: absolute;
+    color: white;
+    font-family: arial;
+    left: 665px;
+    top: 530px;
+}
+header{
+    background-color: #18181b;
+    font-size: 100%;
+    font-family: arial;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#panneau_chapitre{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f23;
+    width : 250px;
+    padding-right: 3%;
+    border-top: solid 2px #0e0e10;
+}
+
+.nom_chapitre{
+    font-family: arial;
+    font-size: 100%;
+    color: white;
+    list-style: none;
+    box-sizing: content-box;
+    width: 125%;
+    padding: 20% 20% 20% 5%;
+    font-size: 100%;
+    transition: 0.5s;
+}
+
+
+
+.lien_chapitre{
+    text-decoration: none;  
+}
+
+.nom_chapitre:hover{
+    background-color: #f1cfa8;
+    box-sizing: content-box;
+    padding: 20% 20% 20% 5%;
+    transition: 0.5s;
+}
+
+.nom_panneaux{
+    font-family: arial;
+    color: white;
+    box-sizing: content-box;
+    width: 125%;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+#panneaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#emplacement{
+width: 1700px;
+background-color: #0e0e10;
+}
+
+#slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgslide{
+    position: absolute;
+    border-radius: 10px;
+}
+
+#imgslide1{
+    max-width: 300px;
+    left : 350px;
+    top: 125px;
+    transition: 1s;
+    z-index: 0;
+}
+
+#imgslide1:hover{
+    filter: none;
+    max-width: 300px;
+    transition: 1s;
+    transform: scale(1.1);
+    border: 2px solid #f1cfa8;
+}
+
+#imgslide2{
+    max-width: 400px;
+    filter: none;
+    z-index: 100;
+    top: 100px;
+    transition: 1s;
+    left : 631px;
+}
+
+#imgslide2:hover{
+    max-width: 410px;
+    transition: 1s;
+    border: 2px solid #f1cfa8;
+    transform: scale(1.1);
+    filter: none;
+}
+
+#imgslide3{
+    max-width: 300px;
+    right : 150px;
+    top: 125px;
+    transition: 1s;
+    z-index: 0;
+}
+
+#imgslide3:hover{
+    filter: none;
+    max-width: 300px;
+    transition: 1s;
+    transform: scale(1.1);
+    border: 2px solid #f1cfa8;
+}
+
+footer{
+    display: flex;
+    background-color: #18181b;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    font-family: arial;
+    color: #f1cfa8;
+    text-align: center;
+}
+
+.description{
+    background-color: #18181b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 600px 50px 200px;
+    padding: 0px 30px;
+}
+
+#description{
+    background-color: #18181b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 400px 600px 50px 200px;
+    padding: 0px 30px;
+    transition: 0.5s;
+}
+
+#description:hover{
+    transition: 0.5s;
+    background-color: #f1cfa8;
+}
+
+.description:hover{
+    transition: 0.5s;
+    background-color: #f1cfa8;
+}
+
+.descriptiontext{
+    transition: 0.5s;
+    color: white;
+    font-family: arial;
+}
+
+.Pseudo{
+    color: white;
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+#placementchap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lienchap{
+    text-decoration: none;
+}

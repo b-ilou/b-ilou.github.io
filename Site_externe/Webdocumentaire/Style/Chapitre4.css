@@ -1,0 +1,361 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #0e0e10;
+}
+
+header{
+    background-color: #18181b;
+    font-size: 100%;
+    font-family: arial;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#panneau_chapitre{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f23;
+    width : 250px;
+    padding-right: 3%;
+    border-top: solid 2px #0e0e10;
+}
+
+.nom_chapitre{
+    font-family: arial;
+    font-size: 100%;
+    color: white;
+    list-style: none;
+    box-sizing: content-box;
+    width: 125%;
+    padding: 20% 20% 20% 5%;
+    font-size: 100%;
+    transition: 0.5s;
+}
+
+.lien_chapitre{
+    text-decoration: none;  
+}
+
+.nom_chapitre:hover{
+    background-color: #f1cfa8;
+    box-sizing: content-box;
+    padding: 20% 20% 20% 5%;
+    transition: 0.5s;
+}
+
+.nom_panneaux{
+    font-family: arial;
+    color: white;
+    box-sizing: content-box;
+    width: 125%;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+#panneau_chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #18181b;
+    margin: 0% 0% 0% 0%;
+    border-top: solid 2px #0e0e10;
+}
+
+#QLC{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+#panneaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#chat{
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat1{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat2{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat3{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat4{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat4{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat5{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat6{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat7{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat8{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat9{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat10{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat11{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat12{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat13{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat14{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat15{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#chat16{
+    margin-top: -10px;
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+#Moi{
+    font-family: arial;
+    color: white;
+    padding: 0% 5%;
+    line-height: 200%;
+}
+
+video{
+height: 550px;
+width: 1200px;
+}
+
+#message{
+    margin: 0% 5%;
+    padding: 3% 0%;
+    background-color: #4c4c4f;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+#message[type=text] {
+    color: #c5c5c6;
+    padding: 5%;
+}
+
+.bleu{
+    color: #00c3ff;
+}
+.violet{
+    color: #8504d0;
+}
+.rouge{
+    color: #ff0000;
+}
+.orange{
+    color: #ffb700;
+}
+.vert{
+    color: #00ff26;
+}
+.beige{
+    text-decoration: none;
+    color: #f1cfa8;
+    font-weight: none;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+color: #FFFFFF;
+}
+
+.couleur{
+    color: #f1cfa8;
+}
+
+.Pseudo{
+    color: white;
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+#dessous{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 240px;
+    margin-bottom: 50px;
+}
+
+#dessoustexte{
+    display: flex;
+    flex-direction: column;
+}
+
+#dessoustext{
+    color: white;
+    font-family: arial;
+    margin-top: -10px;
+}
+
+#PP{
+width: 80px;
+height: 80px;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+#description{
+    background-color: #18181b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 300px;
+    padding: 0px 30px;
+}
+
+#descriptiontext{
+    color: white;
+    font-family: arial;
+}
+
+#reseaux{
+    display: flex;
+    flex-direction: column;
+}
+
+.reseaux{
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.rangeseau{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgreseau{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+footer{
+    display: flex;
+    background-color: #18181b;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    font-family: arial;
+    color: #f1cfa8;
+    text-align: center;
+}
