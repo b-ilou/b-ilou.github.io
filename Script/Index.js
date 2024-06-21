@@ -30,6 +30,14 @@ function remonte3(){
     document.getElementById('proj4').style.marginTop = '-30px';
 }
 
+function descente4(){
+    document.getElementById('proj5').style.marginTop = '5px';
+}
+
+function remonte4(){
+    document.getElementById('proj5').style.marginTop = '-30px';
+}
+
 function graphismeon(){
     document.getElementById("Graphisme").src="Image/Accueil/Graphisme.gif";
 }

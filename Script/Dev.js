@@ -79,6 +79,25 @@ function deepblock(){
         
 }
 
+function fish(){
+    document.getElementById("animation").src="Image/animation.gif";
+    document.getElementById('animation').style.opacity = '100%'
+
+    setTimeout(function() {
+        //changer l'url
+        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/fish_collector_bg.png)';
+        }, 2000);
+
+        setTimeout(function() {
+            document.getElementById("animation").src="Image/fondcouper.png";
+            document.getElementById('animation').style.opacity = '75%'
+
+            document.getElementById("competence").src="Image/Dev/FondFish.png";
+            document.getElementById("competence").style.opacity = '100%';
+            }, 4050);
+        
+}
+
 function changeDescription(title, description) {
     setTimeout(function() {
         var descriptionElement = document.getElementById('description');
