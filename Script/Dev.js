@@ -73,7 +73,7 @@ function deepblock(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/Dev/FondWebdoc.png";
+            document.getElementById("competence").src="Image/Dev/FondDeepblock.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
