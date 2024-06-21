@@ -1,4 +1,5 @@
-body{
+/* Styles généraux pour tous les écrans */
+body {
     margin: 0;
     padding: 0;
     font-family: arial;
@@ -8,19 +9,19 @@ body{
     transition: 1s;
 }
 
-.lien{
+.lien {
     text-decoration: none;
     color: black;
 }
 
-header{
+header {
     position: relative;
     display: flex;
     justify-content: center;
-    z-index: 100
+    z-index: 100;
 }
 
-nav{
+nav {
     margin-top: 1%;
     font-size: 25px;
     background-color: rgba(43, 43, 43, 0.315);
@@ -29,43 +30,42 @@ nav{
     padding: 10px 0px;
 }
 
-.menu{
+.menu {
     color: white;
     text-decoration: none;
     padding: 11px 10px;
-
 }
 
-.menu:hover{
+.menu:hover {
     color: rgb(53, 53, 53);
     background-color: rgba(255, 255, 255, 0.568);
     border-radius: 4px;
 }
 
-#actif{
+#actif {
     color: rgb(53, 53, 53);
     background-color: #ffb223;
     border-radius: 4px;
     padding: 11px 10px;
 }
 
-#animation{
-position: absolute;
-width: 100%;
-transition: 1s;
-z-index: -2;
+#animation {
+    position: absolute;
+    width: 100%;
+    transition: 1s;
+    z-index: -2;
 }
 
-#competence{
+#competence {
     position: absolute;
     width: 100%;
     transition: 1s;
     z-index: -1;
     opacity: 0%;
     transition: 1s;
-    }
+}
 
-#text{
+#text {
     position: absolute;
     z-index: -222;
     background-color: #e8e8e8;
@@ -76,13 +76,13 @@ z-index: -2;
     width: 40%;
 }
 
-#vide{
+#vide {
     transition: 1s;
     width: 15px;
     height: 160px;
 }
 
-.Titre{
+.Titre {
     font-size: 72px;
     background: var(--gradient);
     background-clip: text;
@@ -105,7 +105,7 @@ z-index: -2;
     }
 }
 
-aside{
+aside {
     margin-left: 5%;
     font-size: larger;
     height: auto;
@@ -116,17 +116,17 @@ aside{
 
 @keyframes Fond {
     0% {
-      background-position: 0% 70%;
+        background-position: 0% 70%;
     }
     50% {
-      background-position: 100% 70%;
+        background-position: 100% 70%;
     }
     100% {
-      background-position: 0% 70%;
+        background-position: 0% 70%;
     }
-  }
+}
 
-  #slider-container {
+#slider-container {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -211,31 +211,157 @@ button {
     transition: all 0.8s ease-in-out;
     transform: rotate(90deg);
     transform-origin: 35px 35px;
-  }
+}
 
-  .triangledroitgris {
+.triangledroitgris {
     fill: #b3b2b2;
     transition: all 0.8s ease-in-out;
     transform: rotate(90deg) translate(0px, 17.5px);
     transform-origin: 35px 35px;
-  }
+}
 
-  .trianglegaucheorange {
+.trianglegaucheorange {
     fill: #ffb223;
     transition: all 0.8s ease-in-out;
     transform: rotate(-90deg);
     transform-origin: 35px 35px;
-  }
+}
 
-  .trianglegauchegris {
+.trianglegauchegris {
     fill: #b3b2b2;
     transition: all 0.8s ease-in-out;
     transform: rotate(-90deg) translate(0px, 17.5px);
     transform-origin: 35px 35px;
-  }
+}
 
-  #bouton{
+#bouton {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .Titre {
+        font-size: 56px;
+    }
+
+    aside {
+        width: 50%;
+    }
+
+    .Projet {
+        width: 350px;
+        height: 220px;
+    }
+
+    .imgprojet {
+        width: 350px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 992px) {
+    nav {
+        font-size: 22px;
+        padding: 8px 0px;
+    }
+
+    .Titre {
+        font-size: 48px;
+    }
+
+    aside {
+        width: 60%;
+    }
+
+    .Projet {
+        width: 300px;
+        height: 200px;
+    }
+
+    .imgprojet {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        font-size: 20px;
+        padding: 6px 0px;
+    }
+
+    .Titre {
+        font-size: 40px;
+    }
+
+    aside {
+        width: 70%;
+        margin-left: 3%;
+    }
+
+    .Projet {
+        width: 250px;
+        height: 180px;
+    }
+
+    .imgprojet {
+        width: 250px;
+        height: 180px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    #btngauche,
+    #btndroite {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        font-size: 18px;
+        padding: 4px 0px;
+    }
+
+    .Titre {
+        font-size: 32px;
+    }
+
+    aside {
+        width: 80%;
+        margin-left: 2%;
+    }
+
+    .Projet {
+        width: 200px;
+        height: 160px;
+    }
+
+    .imgprojet {
+        width: 200px;
+        height: 160px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 6px;
+    }
+
+    #btngauche,
+    #btndroite {
+        height: 50px;
+        width: 50px;
+    }
 }
