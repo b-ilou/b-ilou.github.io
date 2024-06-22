@@ -16,45 +16,45 @@ function ccf(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="";
+            document.getElementById("competence").src="Image/graphisme/FondCCF.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
 }
 
-function doc(){
+function cake(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/web_doc_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Graphisme/cake_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/Dev/FondWebdoc.png";
+            document.getElementById("competence").src="Image/graphisme/FondCake.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
 }
 
-function jpo(){
+function cover(){
     document.getElementById("animation").src="Image/animation.gif";
     document.getElementById('animation').style.opacity = '100%'
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/jpo_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/graphisme/cover_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/Dev/FondJPO.png";
+            document.getElementById("competence").src="Image/graphisme/FondCCF.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         

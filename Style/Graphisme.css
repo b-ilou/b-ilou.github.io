@@ -177,6 +177,11 @@ aside{
     object-fit: cover;
 }
 
+#cache{
+    opacity: 0;
+    pointer-events: none;
+}
+
 h4 {
     margin-left: 5px;
     margin-top: -30px;
