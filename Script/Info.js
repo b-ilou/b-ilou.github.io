@@ -39,35 +39,27 @@ function remonte4(){
 }
 
 function cvon(){
-    document.getElementById("CV").src="Image/Moi/CV.gif";
+    document.getElementById("CV").src="Image/Info/CV.gif";
 }
 
 function cvoff(){
-    document.getElementById("CV").src="Image/Moi/CV.png";
+    document.getElementById("CV").src="Image/Info/CV.png";
 }
 
 function linkedinon(){
-    document.getElementById("LinkedIn").src="Image/Moi/LinkedIn.gif";
+    document.getElementById("LinkedIn").src="Image/Info/LinkedIn.gif";
 }
 
 function linkedinoff(){
-    document.getElementById("LinkedIn").src="Image/Moi/LinkedIn.png";
+    document.getElementById("LinkedIn").src="Image/Info/LinkedIn.png";
 }
 
 function contacton(){
-    document.getElementById("Contact").src="Image/Moi/Contact.gif";
+    document.getElementById("Contact").src="Image/Info/Contact.gif";
 }
 
 function contactoff(){
-    document.getElementById("Contact").src="Image/Moi/Contact.png";
-}
-
-function pluson(){
-    document.getElementById("Plus").src="Image/Accueil/plus.gif";
-}
-
-function plusoff(){
-    document.getElementById("Plus").src="Image/Accueil/Plus.png";
+    document.getElementById("Contact").src="Image/Info/Contact.png";
 }
 
 const textElement = document.querySelector('.Titre');
