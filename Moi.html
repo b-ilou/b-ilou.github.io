@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Moi.css">
+    <title>Portfolio - Bilal Ouhrouche</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="menu" href="index.html">Accueil</a>
+            <a class="menu" href="#">Dev</a>
+            <a class="menu" href="Graphisme.html">Graphisme</a>
+            <a class="menu" href="Audiovisuel.html">Audiovisuel</a>
+            <a id="actif" class="menu" href="#">Contact</a>
+        </nav>
+    </header>
+
+<div id="vide"></div>
+
+<aside>
+<h1 class="Titre">Bilal Ouhrouche</h1>
+<p id="description">Bonjour, je m'appelle Bilal Ouhrouche, étudiant en 3ème année de MMI (Métiers du Multimédia et de l'Internet), et je vous souhaite la bienvenue sur mon portfolio. Vous y trouverez un certain nombre de projets que j'ai pu réaliser en cours, en stage, ou même par simple loisir. Je vous souhaite une agréable navigation et espère que mes projets vous plairont.</p>
+</aside>
+
+<section id="slide">
+
+    <a class="lien" target="_blank" href="CV_BilalOuhrouche.pdf"><article class="Projet" onmouseover="descente();" onmouseleave="remonte();">
+    <img onmouseover="cvon();" onmouseleave="cvoff();" id="CV" class="imgprojet" src="Image/Moi/CV.png" alt="CV">
+    <h4 id="proj1">Acceder à la section</h4>
+    </article></a>
+
+    <a class="lien" target="_blank" href="https://www.linkedin.com/in/bilal-ouhrouche/"><article class="Projet" onmouseover="descente1();" onmouseleave="remonte1();">
+    <img onmouseover="linkedinon();" onmouseleave="linkedinoff();" id="LinkedIn" class="imgprojet" src="Image/Moi/LinkedIn.png" alt="LinkedIn">
+    <h4 id="proj2">Acceder à la section</h4>
+    </article></a>
+
+    <a class="lien" href="mailto:bilal.ouhrouche@gmail.com"><article class="Projet" onmouseover="descente2();" onmouseleave="remonte2();">
+    <img onmouseover="contacton();" onmouseleave="contactoff();" id="Contact" class="imgprojet" src="Image/Moi/Contact.png" alt="Contact">
+    <h4 id="proj3">Acceder à la section</h4>
+    </article></a>
+
+    <article id="cache" class="Projet">
+    </article>
+    
+
+    
+
+</section>
+
+
+<script src="Script/Moi.js"></script>
+</body>
+</html>
