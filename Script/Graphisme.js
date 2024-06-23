@@ -28,14 +28,14 @@ function cake(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Graphisme/cake_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Graphisme/Cake_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/graphisme/FondCake.png";
+            document.getElementById("competence").src="Image/Graphisme/FondCake.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -47,14 +47,14 @@ function cover(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/graphisme/cover_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Graphisme/Cover_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/graphisme/FondCCF.png";
+            document.getElementById("competence").src="Image/Graphisme/FondCCF.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
