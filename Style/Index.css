@@ -277,4 +277,24 @@ h4{
     align-items: center;
     flex-direction: column;
     transition: 1s;
-}   
+}
+
+@keyframes points {
+    0%, 20% {
+        content: '';
+    }
+    40% {
+        content: '.';
+    }
+    60% {
+        content: '..';
+    }
+    80%, 100% {
+        content: '...';
+    }
+}
+
+#chargementtext::after {
+    content: '';
+    animation: points 1.5s steps(1, end) infinite;
+}
