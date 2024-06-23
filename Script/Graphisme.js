@@ -16,7 +16,7 @@ function ccf(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/graphisme/FondCCF.png";
+            document.getElementById("competence").src="Image/Graphisme/FondCCF.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -55,44 +55,6 @@ function cover(){
             document.getElementById('animation').style.opacity = '75%'
 
             document.getElementById("competence").src="Image/Graphisme/FondCCF.png";
-            document.getElementById("competence").style.opacity = '100%';
-            }, 4050);
-        
-}
-
-function deepblock(){
-    document.getElementById("animation").src="Image/animation.gif";
-    document.getElementById('animation').style.opacity = '100%'
-
-    setTimeout(function() {
-        //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/deepblock_bg.png)';
-        }, 2000);
-
-        setTimeout(function() {
-            document.getElementById("animation").src="Image/fondcouper.png";
-            document.getElementById('animation').style.opacity = '75%'
-
-            document.getElementById("competence").src="Image/Dev/FondDeepblock.png";
-            document.getElementById("competence").style.opacity = '100%';
-            }, 4050);
-        
-}
-
-function fish(){
-    document.getElementById("animation").src="Image/animation.gif";
-    document.getElementById('animation').style.opacity = '100%'
-
-    setTimeout(function() {
-        //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Dev/fish_collector_bg.png)';
-        }, 2000);
-
-        setTimeout(function() {
-            document.getElementById("animation").src="Image/fondcouper.png";
-            document.getElementById('animation').style.opacity = '75%'
-
-            document.getElementById("competence").src="Image/Dev/FondFish.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         

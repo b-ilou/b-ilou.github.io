@@ -9,14 +9,14 @@ function lesac(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/Sac_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/Sac_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/audiovisuel/FondLesac.png";
+            document.getElementById("competence").src="Image/Audiovisuel/FondLesac.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -28,14 +28,14 @@ function vrealite(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/Vrealité_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/Vrealité_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/audiovisuel/FondVrealite.png";
+            document.getElementById("competence").src="Image/Audiovisuel/FondVrealite.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -47,14 +47,14 @@ function pub(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/pub_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/pub_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/audiovisuel/FondPub.png";
+            document.getElementById("competence").src="Image/Audiovisuel/FondPub.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -66,14 +66,14 @@ function ccf(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/audiovisuel/ccf_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/ccf_bg.png)';
         }, 2000);
 
         setTimeout(function() {
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/audiovisuel/FondCCF.png";
+            document.getElementById("competence").src="Image/Audiovisuel/FondCCF.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
@@ -92,7 +92,7 @@ function nuitinfo(){
             document.getElementById("animation").src="Image/fondcouper.png";
             document.getElementById('animation').style.opacity = '75%'
 
-            document.getElementById("competence").src="Image/audiovisuel/FondLesac.png";
+            document.getElementById("competence").src="Image/Audiovisuel/FondLesac.png";
             document.getElementById("competence").style.opacity = '100%';
             }, 4050);
         
