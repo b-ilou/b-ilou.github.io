@@ -241,7 +241,7 @@ button {
     justify-content: space-evenly;
 }
 
-/* @media (max-width: 1670px) {
+@media (max-width: 1670px) {
     .Projet{
         width: 350px;
         height: 200px;
@@ -457,4 +457,4 @@ button {
     h4{
         font-size: 16px;
     }
-} */
+}
