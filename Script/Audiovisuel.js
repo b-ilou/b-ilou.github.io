@@ -47,7 +47,7 @@ function pub(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/pub_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/Pub_bg.png)';
         }, 2000);
 
         setTimeout(function() {
@@ -66,7 +66,7 @@ function ccf(){
 
     setTimeout(function() {
         //changer l'url
-        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/ccf_bg.png)';
+        document.getElementById('body').style.backgroundImage = 'url(Image/Audiovisuel/CCF_bg.png)';
         }, 2000);
 
         setTimeout(function() {
