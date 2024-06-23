@@ -241,13 +241,17 @@ button {
     justify-content: space-evenly;
 }
 
-@media (max-width: 1670px) {
+@media (max-width: 1680px) {
+    .Projet{
+        margin: 100px 15px;
+    }
+}
+
+@media (max-width: 1600px) {
     .Projet{
         width: 350px;
         height: 200px;
-
     }
-    
     
     .Projet:hover{
         margin-top: 97px;
@@ -275,24 +279,13 @@ button {
     }
 }
 
-
-@media (max-width: 1670px) {
+@media (max-width: 1550px) {
     .Projet{
-        margin: 5vw 0.9vw;
+        margin: 100px 5px;
     }
 }
 
-@media (max-width: 1620px) {
-    .Projet{
-        margin: 5vw 0.6vw;
-    }
-}
-
-@media (max-width: 1600px) {
-    .slide-group {
-        margin-left: 10%;
-    }
-
+@media (max-width: 1400px) {
     .Projet{
         width: 300px;
         height: 150px;
@@ -320,89 +313,6 @@ button {
 
     #vide{
         width: 15px;
-        height: 30px;
-    }
-
-}
-
-@media (max-width: 1500px) {
-    .slide-group {
-        margin-left: 50px;
-    }
-}
-
-@media (max-width: 1400px) {
-    .slide-group {
-        margin-left: 90px;
-    }
-    
-    .Projet{
-        width: 250px;
-        height: 100px;
-    }
-    
-    .Projet:hover{
-        margin-top: 97px;
-        padding-top: 3px;
-        width: 250px;
-        height: 140px;
-        transition: 0.5s;
-        cursor: pointer;
-        box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
-    }
-    
-    .imgprojet{
-        position: relative;
-        width: 250px;
-        height: 100px;
-        transition: 0.5s;
-        z-index: 10;
-        border-radius: 5px;
-        object-fit: cover;
-    }
-
-    #vide{
-        width: 15px;
-        height: 0px;
-    }
-
-    .Titre{
-        font-size: 62px;
-    }
-}
-
-@media (max-width: 1300px) {
-    .slide-group {
-        margin-left: 100px;
-    }
-    
-    .Projet{
-        width: 250px;
-        height: 100px;
-    }
-    
-    .Projet:hover{
-        margin-top: 97px;
-        padding-top: 3px;
-        width: 250px;
-        height: 140px;
-        transition: 0.5s;
-        cursor: pointer;
-        box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.616);
-    }
-    
-    .imgprojet{
-        position: relative;
-        width: 250px;
-        height: 100px;
-        transition: 0.5s;
-        z-index: 10;
-        border-radius: 5px;
-        object-fit: cover;
-    }
-
-    #vide{
-        width: 15px;
         height: 0px;
     }
 
@@ -412,10 +322,6 @@ button {
 }
 
 @media (max-width: 1200px) {
-    .slide-group {
-        margin-left: 50px;
-    }
-
     .Projet{
         width: 250px;
         height: 100px;
