@@ -245,6 +245,12 @@ button {
     justify-content: space-evenly;
 }
 
+@media (max-width: 1680px) {
+    .Projet{
+        margin: 100px 15px;
+    }
+}
+
 @media (max-width: 1600px) {
     .Projet{
         width: 350px;
@@ -274,6 +280,12 @@ button {
     #vide{
         width: 15px;
         height: 30px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .Projet{
+        margin: 100px 5px;
     }
 }
 
