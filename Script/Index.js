@@ -100,3 +100,16 @@ function updateGradientAngle() {
 }
 
 updateGradientAngle();
+
+window.onload = function() {
+
+    document.getElementById("animation").src="Image/animation.gif";
+
+    setTimeout(function() {
+        document.getElementById('chargement').style.display = 'none';
+        document.getElementById("animation").src="Image/fondcouper.png";
+        document.getElementById('animation').style.display = 'none';
+        }, 4050);
+        
+
+};
