@@ -63,7 +63,7 @@ function audiovisueloff(){
 }
 
 function pluson(){
-    document.getElementById("Plus").src="Image/Accueil/plus.gif";
+    document.getElementById("Plus").src="Image/Accueil/Plus.gif";
 }
 
 function plusoff(){
